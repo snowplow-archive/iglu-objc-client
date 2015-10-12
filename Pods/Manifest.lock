@@ -1,0 +1,12 @@
+PODS:
+  - KiteJSONValidator (0.2.3):
+    - KiteJSONValidator/KiteJSONResources (= 0.2.3)
+  - KiteJSONValidator/KiteJSONResources (0.2.3)
+
+DEPENDENCIES:
+  - KiteJSONValidator (~> 0.2.3)
+
+SPEC CHECKSUMS:
+  KiteJSONValidator: 9692df579aab9d195c68d4cab992cfd37d8744ab
+
+COCOAPODS: 0.39.0

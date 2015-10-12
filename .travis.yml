@@ -1,0 +1,15 @@
+sudo: false
+
+language: objective-c
+
+before_install:
+    - gem install slather
+    - brew update
+    - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
+    - pod install
+
+script:
+  - xctool -workspace SnowplowIgluClient.xcworkspace -scheme SnowplowIgluClient -sdk macosx ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace SnowplowIgluClient.xcworkspace -scheme SnowplowIgluClientTests -sdk macosx ONLY_ACTIVE_ARCH=NO
+
+after_success: slather

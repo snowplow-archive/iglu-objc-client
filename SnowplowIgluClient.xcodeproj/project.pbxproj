@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045044C71BD4C0E400677154 /* SnowplowIgluResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */; settings = {ASSET_TAGS = (); }; };
+		048F243F1BCFCC380057A1DC /* TestResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F243E1BCFCC380057A1DC /* TestResolver.m */; settings = {ASSET_TAGS = (); }; };
+		048F24411BCFD19C0057A1DC /* TestSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F24401BCFD19C0057A1DC /* TestSchema.m */; settings = {ASSET_TAGS = (); }; };
+		04A4A8961BD4E7E8000B7395 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* Resources */; settings = {ASSET_TAGS = (); }; };
+		04A4A8971BD4E7E8000B7395 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* Resources */; settings = {ASSET_TAGS = (); }; };
+		04A4A8981BD4E7E8000B7395 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* Resources */; settings = {ASSET_TAGS = (); }; };
+		04A9F7AC1BCE2A9900BD823C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A9F7AB1BCE2A9900BD823C /* CoreFoundation.framework */; };
+		04A9F7C21BCE2E2C00BD823C /* SnowplowIgluResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */; settings = {ASSET_TAGS = (); }; };
+		04D0AB9F1BD1401B000B0CD6 /* TestResources in Resources */ = {isa = PBXBuildFile; fileRef = 04F728081BCD4D3400236038 /* TestResources */; settings = {ASSET_TAGS = (); }; };
+		04F727DF1BCD4C2200236038 /* libSnowplowIgluClient.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F727B51BCD4B7600236038 /* libSnowplowIgluClient.dylib */; settings = {ASSET_TAGS = (); }; };
+		04F727FB1BCD4D2700236038 /* IGLUConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F11BCD4D2700236038 /* IGLUConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04F727FC1BCD4D2700236038 /* IGLUConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F21BCD4D2700236038 /* IGLUConstants.m */; settings = {ASSET_TAGS = (); }; };
+		04F727FD1BCD4D2700236038 /* IGLUClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F31BCD4D2700236038 /* IGLUClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04F727FE1BCD4D2700236038 /* IGLUClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F41BCD4D2700236038 /* IGLUClient.m */; settings = {ASSET_TAGS = (); }; };
+		04F727FF1BCD4D2700236038 /* IGLUResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F51BCD4D2700236038 /* IGLUResolver.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		04F728001BCD4D2700236038 /* IGLUResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F61BCD4D2700236038 /* IGLUResolver.m */; settings = {ASSET_TAGS = (); }; };
+		04F728011BCD4D2700236038 /* IGLUSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F71BCD4D2700236038 /* IGLUSchema.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		04F728021BCD4D2700236038 /* IGLUSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F81BCD4D2700236038 /* IGLUSchema.m */; settings = {ASSET_TAGS = (); }; };
+		04F728031BCD4D2700236038 /* IGLUUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F91BCD4D2700236038 /* IGLUUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04F728041BCD4D2700236038 /* IGLUUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727FA1BCD4D2700236038 /* IGLUUtilities.m */; settings = {ASSET_TAGS = (); }; };
+		04F7280C1BCD4D3400236038 /* TestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F728071BCD4D3400236038 /* TestClient.m */; settings = {ASSET_TAGS = (); }; };
+		04F7280D1BCD4D3400236038 /* TestResources in Resources */ = {isa = PBXBuildFile; fileRef = 04F728081BCD4D3400236038 /* TestResources */; settings = {ASSET_TAGS = (); }; };
+		04F7280E1BCD4D3400236038 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F728091BCD4D3400236038 /* TestUtilities.m */; settings = {ASSET_TAGS = (); }; };
+		AB46B1D9C2D0D78014F0F02A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B293258F5C962401CAA30A /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F727E01BCD4C2200236038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F727AD1BCD4B7600236038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F727B41BCD4B7600236038;
+			remoteInfo = SnowplowIgluClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048F243E1BCFCC380057A1DC /* TestResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestResolver.m; sourceTree = "<group>"; };
+		048F24401BCFD19C0057A1DC /* TestSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSchema.m; sourceTree = "<group>"; };
+		04A4A8951BD4E7E8000B7395 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		04A9F7AB1BCE2A9900BD823C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowplowIgluResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D1F2BB1BCE265A00B947A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F727B51BCD4B7600236038 /* libSnowplowIgluClient.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libSnowplowIgluClient.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F727DA1BCD4C2200236038 /* SnowplowIgluClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowplowIgluClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F727F11BCD4D2700236038 /* IGLUConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLUConstants.h; sourceTree = "<group>"; };
+		04F727F21BCD4D2700236038 /* IGLUConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLUConstants.m; sourceTree = "<group>"; };
+		04F727F31BCD4D2700236038 /* IGLUClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLUClient.h; sourceTree = "<group>"; };
+		04F727F41BCD4D2700236038 /* IGLUClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLUClient.m; sourceTree = "<group>"; };
+		04F727F51BCD4D2700236038 /* IGLUResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLUResolver.h; sourceTree = "<group>"; };
+		04F727F61BCD4D2700236038 /* IGLUResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLUResolver.m; sourceTree = "<group>"; };
+		04F727F71BCD4D2700236038 /* IGLUSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLUSchema.h; sourceTree = "<group>"; };
+		04F727F81BCD4D2700236038 /* IGLUSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLUSchema.m; sourceTree = "<group>"; };
+		04F727F91BCD4D2700236038 /* IGLUUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLUUtilities.h; sourceTree = "<group>"; };
+		04F727FA1BCD4D2700236038 /* IGLUUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLUUtilities.m; sourceTree = "<group>"; };
+		04F728051BCD4D3400236038 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F728071BCD4D3400236038 /* TestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClient.m; sourceTree = "<group>"; };
+		04F728081BCD4D3400236038 /* TestResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestResources; sourceTree = "<group>"; };
+		04F728091BCD4D3400236038 /* TestUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUtilities.m; sourceTree = "<group>"; };
+		6134D600D4B52CB94EABAE27 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B293258F5C962401CAA30A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D894282C05AE15E426E86B12 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D1F2B61BCE265A00B947A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A9F7AC1BCE2A9900BD823C /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F727B21BCD4B7600236038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB46B1D9C2D0D78014F0F02A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F727D71BCD4C2200236038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F727DF1BCD4C2200236038 /* libSnowplowIgluClient.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D1F2BA1BCE265A00B947A2 /* SnowplowIgluResources */ = {
+			isa = PBXGroup;
+			children = (
+				04A4A8951BD4E7E8000B7395 /* Resources */,
+				04D1F2BB1BCE265A00B947A2 /* Info.plist */,
+			);
+			path = SnowplowIgluResources;
+			sourceTree = "<group>";
+		};
+		04F727AC1BCD4B7600236038 = {
+			isa = PBXGroup;
+			children = (
+				04F727B71BCD4B7600236038 /* SnowplowIgluClient */,
+				04F727DB1BCD4C2200236038 /* SnowplowIgluClientTests */,
+				04D1F2BA1BCE265A00B947A2 /* SnowplowIgluResources */,
+				04F727B61BCD4B7600236038 /* Products */,
+				CD745CFDA6E66C70C78B98CE /* Pods */,
+				65B22BF716810C1B9CFD3ED5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04F727B61BCD4B7600236038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F727B51BCD4B7600236038 /* libSnowplowIgluClient.dylib */,
+				04F727DA1BCD4C2200236038 /* SnowplowIgluClientTests.xctest */,
+				04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F727B71BCD4B7600236038 /* SnowplowIgluClient */ = {
+			isa = PBXGroup;
+			children = (
+				04F727F11BCD4D2700236038 /* IGLUConstants.h */,
+				04F727F21BCD4D2700236038 /* IGLUConstants.m */,
+				04F727F31BCD4D2700236038 /* IGLUClient.h */,
+				04F727F41BCD4D2700236038 /* IGLUClient.m */,
+				04F727F51BCD4D2700236038 /* IGLUResolver.h */,
+				04F727F61BCD4D2700236038 /* IGLUResolver.m */,
+				04F727F71BCD4D2700236038 /* IGLUSchema.h */,
+				04F727F81BCD4D2700236038 /* IGLUSchema.m */,
+				04F727F91BCD4D2700236038 /* IGLUUtilities.h */,
+				04F727FA1BCD4D2700236038 /* IGLUUtilities.m */,
+			);
+			path = SnowplowIgluClient;
+			sourceTree = "<group>";
+		};
+		04F727DB1BCD4C2200236038 /* SnowplowIgluClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F728081BCD4D3400236038 /* TestResources */,
+				04F728051BCD4D3400236038 /* Info.plist */,
+				04F728071BCD4D3400236038 /* TestClient.m */,
+				04F728091BCD4D3400236038 /* TestUtilities.m */,
+				048F243E1BCFCC380057A1DC /* TestResolver.m */,
+				048F24401BCFD19C0057A1DC /* TestSchema.m */,
+			);
+			path = SnowplowIgluClientTests;
+			sourceTree = "<group>";
+		};
+		65B22BF716810C1B9CFD3ED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A9F7AB1BCE2A9900BD823C /* CoreFoundation.framework */,
+				C7B293258F5C962401CAA30A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD745CFDA6E66C70C78B98CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6134D600D4B52CB94EABAE27 /* Pods.debug.xcconfig */,
+				D894282C05AE15E426E86B12 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04F727B31BCD4B7600236038 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F727FD1BCD4D2700236038 /* IGLUClient.h in Headers */,
+				04F727FB1BCD4D2700236038 /* IGLUConstants.h in Headers */,
+				04F728031BCD4D2700236038 /* IGLUUtilities.h in Headers */,
+				04F727FF1BCD4D2700236038 /* IGLUResolver.h in Headers */,
+				04F728011BCD4D2700236038 /* IGLUSchema.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04D1F2B81BCE265A00B947A2 /* SnowplowIgluResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D1F2BE1BCE265A00B947A2 /* Build configuration list for PBXNativeTarget "SnowplowIgluResources" */;
+			buildPhases = (
+				04D1F2B51BCE265A00B947A2 /* Sources */,
+				04D1F2B61BCE265A00B947A2 /* Frameworks */,
+				04D1F2B71BCE265A00B947A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowplowIgluResources;
+			productName = SnowplowIgluResources;
+			productReference = 04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		04F727B41BCD4B7600236038 /* SnowplowIgluClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F727BE1BCD4B7600236038 /* Build configuration list for PBXNativeTarget "SnowplowIgluClient" */;
+			buildPhases = (
+				DF255AF411590FA0562EB8EB /* Check Pods Manifest.lock */,
+				04F727B11BCD4B7600236038 /* Sources */,
+				04F727B21BCD4B7600236038 /* Frameworks */,
+				04F727B31BCD4B7600236038 /* Headers */,
+				ECD2B322C614FB2965DF14DD /* Copy Pods Resources */,
+				04F7281E1BCD51CD00236038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowplowIgluClient;
+			productName = SnowplowIgluClient;
+			productReference = 04F727B51BCD4B7600236038 /* libSnowplowIgluClient.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		04F727D91BCD4C2200236038 /* SnowplowIgluClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F727E21BCD4C2200236038 /* Build configuration list for PBXNativeTarget "SnowplowIgluClientTests" */;
+			buildPhases = (
+				04F727D61BCD4C2200236038 /* Sources */,
+				04F727D71BCD4C2200236038 /* Frameworks */,
+				04F727D81BCD4C2200236038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F727E11BCD4C2200236038 /* PBXTargetDependency */,
+			);
+			name = SnowplowIgluClientTests;
+			productName = SnowplowIgluClientTests;
+			productReference = 04F727DA1BCD4C2200236038 /* SnowplowIgluClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F727AD1BCD4B7600236038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Snowplow Analytics";
+				TargetAttributes = {
+					04D1F2B81BCE265A00B947A2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					04F727B41BCD4B7600236038 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					04F727D91BCD4C2200236038 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 04F727B01BCD4B7600236038 /* Build configuration list for PBXProject "SnowplowIgluClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04F727AC1BCD4B7600236038;
+			productRefGroup = 04F727B61BCD4B7600236038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F727B41BCD4B7600236038 /* SnowplowIgluClient */,
+				04F727D91BCD4C2200236038 /* SnowplowIgluClientTests */,
+				04D1F2B81BCE265A00B947A2 /* SnowplowIgluResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D1F2B71BCE265A00B947A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A4A8981BD4E7E8000B7395 /* Resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F727D81BCD4C2200236038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045044C71BD4C0E400677154 /* SnowplowIgluResources.bundle in Resources */,
+				04F7280D1BCD4D3400236038 /* TestResources in Resources */,
+				04A4A8971BD4E7E8000B7395 /* Resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7281E1BCD51CD00236038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D0AB9F1BD1401B000B0CD6 /* TestResources in Resources */,
+				04A9F7C21BCE2E2C00BD823C /* SnowplowIgluResources.bundle in Resources */,
+				04A4A8961BD4E7E8000B7395 /* Resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF255AF411590FA0562EB8EB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECD2B322C614FB2965DF14DD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D1F2B51BCE265A00B947A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F727B11BCD4B7600236038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F728041BCD4D2700236038 /* IGLUUtilities.m in Sources */,
+				04F728001BCD4D2700236038 /* IGLUResolver.m in Sources */,
+				04F727FC1BCD4D2700236038 /* IGLUConstants.m in Sources */,
+				04F727FE1BCD4D2700236038 /* IGLUClient.m in Sources */,
+				04F728021BCD4D2700236038 /* IGLUSchema.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F727D61BCD4C2200236038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F7280E1BCD4D3400236038 /* TestUtilities.m in Sources */,
+				04F7280C1BCD4D3400236038 /* TestClient.m in Sources */,
+				048F243F1BCFCC380057A1DC /* TestResolver.m in Sources */,
+				048F24411BCFD19C0057A1DC /* TestSchema.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F727E11BCD4C2200236038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F727B41BCD4B7600236038 /* SnowplowIgluClient */;
+			targetProxy = 04F727E01BCD4C2200236038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04D1F2BC1BCE265A00B947A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnowplowIgluResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snowplowanalytics.SnowplowIgluResources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		04D1F2BD1BCE265A00B947A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnowplowIgluResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snowplowanalytics.SnowplowIgluResources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		04F727BC1BCD4B7600236038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04F727BD1BCD4B7600236038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04F727BF1BCD4B7600236038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6134D600D4B52CB94EABAE27 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04F727C01BCD4B7600236038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D894282C05AE15E426E86B12 /* Pods.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04F727E31BCD4C2200236038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnowplowIgluClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snowplowanalytics.SnowplowIgluClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04F727E41BCD4C2200236038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnowplowIgluClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snowplowanalytics.SnowplowIgluClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D1F2BE1BCE265A00B947A2 /* Build configuration list for PBXNativeTarget "SnowplowIgluResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D1F2BC1BCE265A00B947A2 /* Debug */,
+				04D1F2BD1BCE265A00B947A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F727B01BCD4B7600236038 /* Build configuration list for PBXProject "SnowplowIgluClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F727BC1BCD4B7600236038 /* Debug */,
+				04F727BD1BCD4B7600236038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F727BE1BCD4B7600236038 /* Build configuration list for PBXNativeTarget "SnowplowIgluClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F727BF1BCD4B7600236038 /* Debug */,
+				04F727C01BCD4B7600236038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F727E21BCD4C2200236038 /* Build configuration list for PBXNativeTarget "SnowplowIgluClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F727E31BCD4C2200236038 /* Debug */,
+				04F727E41BCD4C2200236038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F727AD1BCD4B7600236038 /* Project object */;
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "iglu:com.snowplowanalytics.iglu/resolver-config/jsonschema/1-0-0", 
+  "data": {
+    "cacheSize": 500, 
+    "repositories": [
+      {
+        "name": "Acme Central", 
+        "vendorPrefixes": [
+          "com.acme"
+        ], 
+        "connection": {
+          "http": {
+            "uri": "http://acme.com"
+          }
+        }, 
+        "priority": 0
+      },
+      {
+        "name": "Iglu Central", 
+        "vendorPrefixes": [
+          "com.snowplowanalytics",
+          "com.snowplowanalytics.snowplow"
+        ],
+        "connection": {
+          "http": {
+            "uri": "http://iglucentral.com"
+          }
+        }, 
+        "priority": 1
+      }
+    ]
+  }
+}
