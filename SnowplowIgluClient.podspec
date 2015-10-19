@@ -21,9 +21,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SnowplowIgluClient/*.{m,h}'
   s.public_header_files = [
-    'SnowplowIgluClient/SPIConstants.h', 
-    'SnowplowIgluClient/SPIClient.h',
-    'SnowplowIgluClient/SPIUtilities.h'
+    'SnowplowIgluClient/IGLUConstants.h', 
+    'SnowplowIgluClient/IGLUClient.h',
+    'SnowplowIgluClient/IGLUUtilities.h'
   ]
 
   s.resource_bundles = { 'SnowplowIgluResources' => ['SnowplowIgluResources/*'] }
