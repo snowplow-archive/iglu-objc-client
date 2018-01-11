@@ -7,30 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		045044C71BD4C0E400677154 /* SnowplowIgluResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */; settings = {ASSET_TAGS = (); }; };
-		048F243F1BCFCC380057A1DC /* TestResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F243E1BCFCC380057A1DC /* TestResolver.m */; settings = {ASSET_TAGS = (); }; };
-		048F24411BCFD19C0057A1DC /* TestSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F24401BCFD19C0057A1DC /* TestSchema.m */; settings = {ASSET_TAGS = (); }; };
-		04A4A8961BD4E7E8000B7395 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* Resources */; settings = {ASSET_TAGS = (); }; };
-		04A4A8971BD4E7E8000B7395 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* Resources */; settings = {ASSET_TAGS = (); }; };
-		04A4A8981BD4E7E8000B7395 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* Resources */; settings = {ASSET_TAGS = (); }; };
+		0388AFF24DE70A0979A49610 /* libPods-SnowplowIgluClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECE82E3DABDA2517969041E /* libPods-SnowplowIgluClientTests.a */; };
+		045044C71BD4C0E400677154 /* SnowplowIgluResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */; };
+		048F243F1BCFCC380057A1DC /* TestResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F243E1BCFCC380057A1DC /* TestResolver.m */; };
+		048F24411BCFD19C0057A1DC /* TestSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F24401BCFD19C0057A1DC /* TestSchema.m */; };
+		04A4A8961BD4E7E8000B7395 /* IGLUResources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* IGLUResources */; };
+		04A4A8971BD4E7E8000B7395 /* IGLUResources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* IGLUResources */; };
+		04A4A8981BD4E7E8000B7395 /* IGLUResources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* IGLUResources */; };
 		04A9F7AC1BCE2A9900BD823C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A9F7AB1BCE2A9900BD823C /* CoreFoundation.framework */; };
-		04A9F7C21BCE2E2C00BD823C /* SnowplowIgluResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */; settings = {ASSET_TAGS = (); }; };
-		04D0AB9F1BD1401B000B0CD6 /* TestResources in Resources */ = {isa = PBXBuildFile; fileRef = 04F728081BCD4D3400236038 /* TestResources */; settings = {ASSET_TAGS = (); }; };
-		04F727DF1BCD4C2200236038 /* libSnowplowIgluClient.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F727B51BCD4B7600236038 /* libSnowplowIgluClient.dylib */; settings = {ASSET_TAGS = (); }; };
+		04A9F7C21BCE2E2C00BD823C /* SnowplowIgluResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */; };
+		04D0AB9F1BD1401B000B0CD6 /* TestResources in Resources */ = {isa = PBXBuildFile; fileRef = 04F728081BCD4D3400236038 /* TestResources */; };
+		04F727DF1BCD4C2200236038 /* libSnowplowIgluClient.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F727B51BCD4B7600236038 /* libSnowplowIgluClient.dylib */; };
 		04F727FB1BCD4D2700236038 /* IGLUConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F11BCD4D2700236038 /* IGLUConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04F727FC1BCD4D2700236038 /* IGLUConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F21BCD4D2700236038 /* IGLUConstants.m */; settings = {ASSET_TAGS = (); }; };
+		04F727FC1BCD4D2700236038 /* IGLUConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F21BCD4D2700236038 /* IGLUConstants.m */; };
 		04F727FD1BCD4D2700236038 /* IGLUClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F31BCD4D2700236038 /* IGLUClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04F727FE1BCD4D2700236038 /* IGLUClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F41BCD4D2700236038 /* IGLUClient.m */; settings = {ASSET_TAGS = (); }; };
+		04F727FE1BCD4D2700236038 /* IGLUClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F41BCD4D2700236038 /* IGLUClient.m */; };
 		04F727FF1BCD4D2700236038 /* IGLUResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F51BCD4D2700236038 /* IGLUResolver.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		04F728001BCD4D2700236038 /* IGLUResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F61BCD4D2700236038 /* IGLUResolver.m */; settings = {ASSET_TAGS = (); }; };
+		04F728001BCD4D2700236038 /* IGLUResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F61BCD4D2700236038 /* IGLUResolver.m */; };
 		04F728011BCD4D2700236038 /* IGLUSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F71BCD4D2700236038 /* IGLUSchema.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		04F728021BCD4D2700236038 /* IGLUSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F81BCD4D2700236038 /* IGLUSchema.m */; settings = {ASSET_TAGS = (); }; };
+		04F728021BCD4D2700236038 /* IGLUSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F81BCD4D2700236038 /* IGLUSchema.m */; };
 		04F728031BCD4D2700236038 /* IGLUUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F91BCD4D2700236038 /* IGLUUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04F728041BCD4D2700236038 /* IGLUUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727FA1BCD4D2700236038 /* IGLUUtilities.m */; settings = {ASSET_TAGS = (); }; };
-		04F7280C1BCD4D3400236038 /* TestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F728071BCD4D3400236038 /* TestClient.m */; settings = {ASSET_TAGS = (); }; };
-		04F7280D1BCD4D3400236038 /* TestResources in Resources */ = {isa = PBXBuildFile; fileRef = 04F728081BCD4D3400236038 /* TestResources */; settings = {ASSET_TAGS = (); }; };
-		04F7280E1BCD4D3400236038 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F728091BCD4D3400236038 /* TestUtilities.m */; settings = {ASSET_TAGS = (); }; };
-		AB46B1D9C2D0D78014F0F02A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B293258F5C962401CAA30A /* libPods.a */; };
+		04F728041BCD4D2700236038 /* IGLUUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727FA1BCD4D2700236038 /* IGLUUtilities.m */; };
+		04F7280C1BCD4D3400236038 /* TestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F728071BCD4D3400236038 /* TestClient.m */; };
+		04F7280D1BCD4D3400236038 /* TestResources in Resources */ = {isa = PBXBuildFile; fileRef = 04F728081BCD4D3400236038 /* TestResources */; };
+		04F7280E1BCD4D3400236038 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F728091BCD4D3400236038 /* TestUtilities.m */; };
+		F961E5E7ECE542BAAE81310C /* libPods-SnowplowIgluClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AB3F44B463F1BA8DD6ECE8 /* libPods-SnowplowIgluClient.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,7 @@
 /* Begin PBXFileReference section */
 		048F243E1BCFCC380057A1DC /* TestResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestResolver.m; sourceTree = "<group>"; };
 		048F24401BCFD19C0057A1DC /* TestSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSchema.m; sourceTree = "<group>"; };
-		04A4A8951BD4E7E8000B7395 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		04A4A8951BD4E7E8000B7395 /* IGLUResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = IGLUResources; sourceTree = "<group>"; };
 		04A9F7AB1BCE2A9900BD823C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowplowIgluResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D1F2BB1BCE265A00B947A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,9 +67,12 @@
 		04F728071BCD4D3400236038 /* TestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClient.m; sourceTree = "<group>"; };
 		04F728081BCD4D3400236038 /* TestResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestResources; sourceTree = "<group>"; };
 		04F728091BCD4D3400236038 /* TestUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUtilities.m; sourceTree = "<group>"; };
-		6134D600D4B52CB94EABAE27 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		C7B293258F5C962401CAA30A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D894282C05AE15E426E86B12 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2E59FD6D734C39177CD3A285 /* Pods-SnowplowIgluClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowplowIgluClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnowplowIgluClient/Pods-SnowplowIgluClient.debug.xcconfig"; sourceTree = "<group>"; };
+		9ECE82E3DABDA2517969041E /* libPods-SnowplowIgluClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnowplowIgluClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9995A4FC602AEEB8F31B96B /* Pods-SnowplowIgluClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowplowIgluClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnowplowIgluClientTests/Pods-SnowplowIgluClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5AB3F44B463F1BA8DD6ECE8 /* libPods-SnowplowIgluClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnowplowIgluClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03559CB07AC9FAE1FDD158C /* Pods-SnowplowIgluClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowplowIgluClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnowplowIgluClient/Pods-SnowplowIgluClient.release.xcconfig"; sourceTree = "<group>"; };
+		F45A18D0008325B5C42F0D38 /* Pods-SnowplowIgluClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowplowIgluClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnowplowIgluClientTests/Pods-SnowplowIgluClientTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB46B1D9C2D0D78014F0F02A /* libPods.a in Frameworks */,
+				F961E5E7ECE542BAAE81310C /* libPods-SnowplowIgluClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F727DF1BCD4C2200236038 /* libSnowplowIgluClient.dylib in Frameworks */,
+				0388AFF24DE70A0979A49610 /* libPods-SnowplowIgluClientTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +107,7 @@
 		04D1F2BA1BCE265A00B947A2 /* SnowplowIgluResources */ = {
 			isa = PBXGroup;
 			children = (
-				04A4A8951BD4E7E8000B7395 /* Resources */,
+				04A4A8951BD4E7E8000B7395 /* IGLUResources */,
 				04D1F2BB1BCE265A00B947A2 /* Info.plist */,
 			);
 			path = SnowplowIgluResources;
@@ -115,8 +120,8 @@
 				04F727DB1BCD4C2200236038 /* SnowplowIgluClientTests */,
 				04D1F2BA1BCE265A00B947A2 /* SnowplowIgluResources */,
 				04F727B61BCD4B7600236038 /* Products */,
-				CD745CFDA6E66C70C78B98CE /* Pods */,
 				65B22BF716810C1B9CFD3ED5 /* Frameworks */,
+				D23580E621017CF3D5AE21B3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,16 +169,19 @@
 			isa = PBXGroup;
 			children = (
 				04A9F7AB1BCE2A9900BD823C /* CoreFoundation.framework */,
-				C7B293258F5C962401CAA30A /* libPods.a */,
+				E5AB3F44B463F1BA8DD6ECE8 /* libPods-SnowplowIgluClient.a */,
+				9ECE82E3DABDA2517969041E /* libPods-SnowplowIgluClientTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CD745CFDA6E66C70C78B98CE /* Pods */ = {
+		D23580E621017CF3D5AE21B3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6134D600D4B52CB94EABAE27 /* Pods.debug.xcconfig */,
-				D894282C05AE15E426E86B12 /* Pods.release.xcconfig */,
+				2E59FD6D734C39177CD3A285 /* Pods-SnowplowIgluClient.debug.xcconfig */,
+				F03559CB07AC9FAE1FDD158C /* Pods-SnowplowIgluClient.release.xcconfig */,
+				A9995A4FC602AEEB8F31B96B /* Pods-SnowplowIgluClientTests.debug.xcconfig */,
+				F45A18D0008325B5C42F0D38 /* Pods-SnowplowIgluClientTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -217,12 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F727BE1BCD4B7600236038 /* Build configuration list for PBXNativeTarget "SnowplowIgluClient" */;
 			buildPhases = (
-				DF255AF411590FA0562EB8EB /* Check Pods Manifest.lock */,
+				B689C0C2240CC3E7A58E7AE7 /* [CP] Check Pods Manifest.lock */,
 				04F727B11BCD4B7600236038 /* Sources */,
 				04F727B21BCD4B7600236038 /* Frameworks */,
 				04F727B31BCD4B7600236038 /* Headers */,
-				ECD2B322C614FB2965DF14DD /* Copy Pods Resources */,
 				04F7281E1BCD51CD00236038 /* Resources */,
+				E33A80A548023EF27112CF2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F727E21BCD4C2200236038 /* Build configuration list for PBXNativeTarget "SnowplowIgluClientTests" */;
 			buildPhases = (
+				2C024CEBAA333EF7CC605626 /* [CP] Check Pods Manifest.lock */,
 				04F727D61BCD4C2200236038 /* Sources */,
 				04F727D71BCD4C2200236038 /* Frameworks */,
 				04F727D81BCD4C2200236038 /* Resources */,
+				14726A52200B67B42F256136 /* [CP] Embed Pods Frameworks */,
+				BD5409D0A9C9704AA1CBDCA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,7 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A4A8981BD4E7E8000B7395 /* Resources in Resources */,
+				04A4A8981BD4E7E8000B7395 /* IGLUResources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +316,7 @@
 			files = (
 				045044C71BD4C0E400677154 /* SnowplowIgluResources.bundle in Resources */,
 				04F7280D1BCD4D3400236038 /* TestResources in Resources */,
-				04A4A8971BD4E7E8000B7395 /* Resources in Resources */,
+				04A4A8971BD4E7E8000B7395 /* IGLUResources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,41 +326,98 @@
 			files = (
 				04D0AB9F1BD1401B000B0CD6 /* TestResources in Resources */,
 				04A9F7C21BCE2E2C00BD823C /* SnowplowIgluResources.bundle in Resources */,
-				04A4A8961BD4E7E8000B7395 /* Resources in Resources */,
+				04A4A8961BD4E7E8000B7395 /* IGLUResources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DF255AF411590FA0562EB8EB /* Check Pods Manifest.lock */ = {
+		14726A52200B67B42F256136 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnowplowIgluClientTests/Pods-SnowplowIgluClientTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ECD2B322C614FB2965DF14DD /* Copy Pods Resources */ = {
+		2C024CEBAA333EF7CC605626 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnowplowIgluClientTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B689C0C2240CC3E7A58E7AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnowplowIgluClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD5409D0A9C9704AA1CBDCA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SnowplowIgluClientTests/Pods-SnowplowIgluClientTests-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/KiteJSONValidator/KiteJSONValidator.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnowplowIgluClientTests/Pods-SnowplowIgluClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E33A80A548023EF27112CF2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SnowplowIgluClient/Pods-SnowplowIgluClient-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/KiteJSONValidator/KiteJSONValidator.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnowplowIgluClient/Pods-SnowplowIgluClient-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -507,7 +575,7 @@
 		};
 		04F727BF1BCD4B7600236038 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6134D600D4B52CB94EABAE27 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 2E59FD6D734C39177CD3A285 /* Pods-SnowplowIgluClient.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -519,7 +587,7 @@
 		};
 		04F727C01BCD4B7600236038 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D894282C05AE15E426E86B12 /* Pods.release.xcconfig */;
+			baseConfigurationReference = F03559CB07AC9FAE1FDD158C /* Pods-SnowplowIgluClient.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -531,6 +599,7 @@
 		};
 		04F727E31BCD4C2200236038 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9995A4FC602AEEB8F31B96B /* Pods-SnowplowIgluClientTests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SnowplowIgluClientTests/Info.plist;
@@ -542,6 +611,7 @@
 		};
 		04F727E41BCD4C2200236038 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45A18D0008325B5C42F0D38 /* Pods-SnowplowIgluClientTests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SnowplowIgluClientTests/Info.plist;
