@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author           = { "Snowplow Analytics Ltd" => "support@snowplowanalytics.com" }
   s.source           = { :git => "https://github.com/snowplow/iglu-objc-client.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/SnowPlowData'
-  s.docset_url	     = 'https://github.com/snowplow/snowplow/wiki/iglu-objc-client'
+  s.documentation_url	= 'https://github.com/snowplow/snowplow/wiki/iglu-objc-client'
 
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
