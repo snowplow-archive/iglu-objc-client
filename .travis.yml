@@ -4,12 +4,13 @@ language: objective-c
 
 before_install:
     - gem install slather
+    - gem install xcpretty
+    - gem install xcpretty-travis-formatter
     - brew update
-    - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
     - pod install
 
 script:
-  - xctool -workspace SnowplowIgluClient.xcworkspace -scheme SnowplowIgluClient -sdk macosx ONLY_ACTIVE_ARCH=NO
-  - xctool test -workspace SnowplowIgluClient.xcworkspace -scheme SnowplowIgluClientTests -sdk macosx ONLY_ACTIVE_ARCH=NO
+  - xcodebuild -workspace SnowplowIgluClient.xcworkspace -scheme SnowplowIgluClient -sdk macosx ONLY_ACTIVE_ARCH=NO | xcpretty -f `xcpretty-travis-formatter`
+  - xcodebuild test -workspace SnowplowIgluClient.xcworkspace -scheme SnowplowIgluClientTests -sdk macosx ONLY_ACTIVE_ARCH=NO | xcpretty -f `xcpretty-travis-formatter`
 
 after_success: slather

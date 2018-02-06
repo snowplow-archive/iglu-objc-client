@@ -61,7 +61,7 @@
     XCTAssertEqual(500, client.getCacheSize);
     XCTAssertEqual(2, client.getSuccessSize);
     XCTAssertEqual(0, client.getFailedSize);
-    XCTAssertEqual(2, client.getResolvers.count);
+    XCTAssertEqual(3, client.getResolvers.count);
     
     [client clearCaches];
     XCTAssertEqual(0, client.getSuccessSize);
