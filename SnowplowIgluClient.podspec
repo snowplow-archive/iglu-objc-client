@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SnowplowIgluClient"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "Snowplow Iglu Client for iOS 7+ and OSX 10.9+"
   s.description      = <<-DESC
   Objective-C client for Iglu, a schema repository.
