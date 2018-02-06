@@ -1,3 +1,9 @@
+Version 0.1.1 (2018-02-13)
+--------------------------
+Fix bundle with invalid custom folder name (#7)
+Update README markdown in according with CommonMark (#8)
+Replace xctest in Travis CI build script with xcodebuild and xcpretty (#9)
+
 Version 0.1.0 (2015-10-19)
 --------------------------
 Initial release

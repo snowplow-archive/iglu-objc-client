@@ -24,7 +24,7 @@
 
 // --- Version
 
-NSString * const kIGLUVersion               = @"iglu-objc-client-0.1.0";
+NSString * const kIGLUVersion               = @"iglu-objc-client-0.1.1";
 
 // --- Embedded Directory
 
