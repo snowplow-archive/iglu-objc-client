@@ -23,12 +23,11 @@
 #import "IGLUUtilities.h"
 #import "IGLUResolver.h"
 #import "IGLUSchema.h"
-#import "KiteJSONValidator.h"
+#import <VVJSONSchemaValidation/VVJSONSchemaValidation.h>
 
 @implementation IGLUClient {
     NSNumber * _cacheSize;
     NSMutableArray * _resolvers;
-    KiteJSONValidator * _jsonValidator;
     NSMutableArray * _bundles;
     NSMutableDictionary * _cachedSchemas;
     NSMutableDictionary * _failedSchemas;
@@ -48,7 +47,6 @@
         _cachedSchemas = [[NSMutableDictionary alloc] init];
         _failedSchemas = [[NSMutableDictionary alloc] init];
         _bundles = [[NSMutableArray alloc] init];
-        _jsonValidator = [KiteJSONValidator new];
         
         // Compile Regex
         _schemaRegex = [NSRegularExpression regularExpressionWithPattern:kIGLUSchemaRegex options:0 error:nil];
@@ -103,7 +101,7 @@
 
 - (BOOL)validateJson:(NSDictionary *)json {
     BOOL result = NO;
-    NSString * error = nil;
+    NSError *error = nil;
     
     if (json == nil) {
         NSLog(@"JSON Dictionary is nil; cannot check.");
@@ -114,16 +112,27 @@
     // - json: is a valid Iglu SelfDescribingJson
     NSString * schemaKey = kIGLUInstanceIgluOnly;
     NSDictionary * schema = [self getSchemaWithKey:schemaKey];
-    
+
     if (schema != nil) {
-        if ([_jsonValidator validateJSONInstance:json withSchema:schema]) {
+        //NSData *schemaData = [NSData dataWithContentsOfURL:mySchemaURL];
+        // note that this object might be not an NSDictionary if schema JSON is invalid
+        //NSDictionary *schemaJSON = [NSJSONSerialization JSONObjectWithData:schemaData options:0 error:NULL];
+        VVJSONSchema *schemaValidator;
+        schemaValidator = [VVJSONSchema schemaWithDictionary:schema baseURI:nil referenceStorage:nil error:&error];
+        if (error == nil) {
             // Second pass validation to check that:
             // - json: is valid against its own schema
             schemaKey = [json objectForKey:kIGLUKeySchema];
-            schema = [self getSchemaWithKey:schemaKey];
-            
+            if (schemaKey != nil) {
+                schema = [self getSchemaWithKey:schemaKey];
+            } else {
+                return NO;
+            }
+
+            NSError *validationError = nil;
+            schemaValidator = [VVJSONSchema schemaWithDictionary:schema baseURI:nil referenceStorage:nil error:&error];
             if (schema != nil) {
-                if ([_jsonValidator validateJSONInstance:[json objectForKey:kIGLUKeyData] withSchema:schema]) {
+                if ([schemaValidator validateObject:[json objectForKey:kIGLUKeyData] withError:&validationError]) {
                     result = YES;
                 } else {
                     error = [NSString stringWithFormat:@"The JSON did not validate against its own JSONSchema: '%@'", schemaKey];
