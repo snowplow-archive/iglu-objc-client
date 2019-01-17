@@ -67,6 +67,13 @@
 			remoteGlobalIDString = 7598AF4221EFB77900C3E80D;
 			remoteInfo = "SnowplowIgluClient iOS";
 		};
+		7598AF7A21F000CE00C3E80D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F727AD1BCD4B7600236038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D1F2B81BCE265A00B947A2;
+			remoteInfo = SnowplowIgluResources;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -351,6 +358,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7598AF7B21F000CE00C3E80D /* PBXTargetDependency */,
 			);
 			name = "SnowplowIgluClient iOS";
 			productName = "SnowplowIgluClient iOS";
@@ -535,6 +543,11 @@
 			isa = PBXTargetDependency;
 			target = 7598AF4221EFB77900C3E80D /* SnowplowIgluClient iOS */;
 			targetProxy = 7598AF4D21EFB77900C3E80D /* PBXContainerItemProxy */;
+		};
+		7598AF7B21F000CE00C3E80D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D1F2B81BCE265A00B947A2 /* SnowplowIgluResources */;
+			targetProxy = 7598AF7A21F000CE00C3E80D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
