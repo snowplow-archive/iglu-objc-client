@@ -29,7 +29,7 @@
 		04F7280C1BCD4D3400236038 /* TestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F728071BCD4D3400236038 /* TestClient.m */; };
 		04F7280D1BCD4D3400236038 /* TestResources in Resources */ = {isa = PBXBuildFile; fileRef = 04F728081BCD4D3400236038 /* TestResources */; };
 		04F7280E1BCD4D3400236038 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F728091BCD4D3400236038 /* TestUtilities.m */; };
-		7598AF4C21EFB77900C3E80D /* SnowplowIgluClient_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7598AF4321EFB77900C3E80D /* SnowplowIgluClient_iOS.framework */; };
+		7598AF4C21EFB77900C3E80D /* SnowplowIgluClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7598AF4321EFB77900C3E80D /* SnowplowIgluClient.framework */; };
 		7598AF5121EFB77900C3E80D /* SnowplowIgluClient_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7598AF5021EFB77900C3E80D /* SnowplowIgluClient_iOSTests.m */; };
 		7598AF5321EFB77900C3E80D /* SnowplowIgluClient_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7598AF4521EFB77900C3E80D /* SnowplowIgluClient_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7598AF5A21EFB7AC00C3E80D /* IGLUConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F21BCD4D2700236038 /* IGLUConstants.m */; };
@@ -113,7 +113,7 @@
 		04F728081BCD4D3400236038 /* TestResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestResources; sourceTree = "<group>"; };
 		04F728091BCD4D3400236038 /* TestUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUtilities.m; sourceTree = "<group>"; };
 		7598AF3A21EFB68200C3E80D /* VVJSONSchemaValidation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVJSONSchemaValidation.framework; path = Carthage/Build/iOS/VVJSONSchemaValidation.framework; sourceTree = "<group>"; };
-		7598AF4321EFB77900C3E80D /* SnowplowIgluClient_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnowplowIgluClient_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7598AF4321EFB77900C3E80D /* SnowplowIgluClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnowplowIgluClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7598AF4521EFB77900C3E80D /* SnowplowIgluClient_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowplowIgluClient_iOS.h; sourceTree = "<group>"; };
 		7598AF4621EFB77900C3E80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7598AF4B21EFB77900C3E80D /* SnowplowIgluClient iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SnowplowIgluClient iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,7 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7598AF4C21EFB77900C3E80D /* SnowplowIgluClient_iOS.framework in Frameworks */,
+				7598AF4C21EFB77900C3E80D /* SnowplowIgluClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +196,7 @@
 				04F727B51BCD4B7600236038 /* libSnowplowIgluClient.dylib */,
 				04F727DA1BCD4C2200236038 /* SnowplowIgluClientTests.xctest */,
 				04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */,
-				7598AF4321EFB77900C3E80D /* SnowplowIgluClient_iOS.framework */,
+				7598AF4321EFB77900C3E80D /* SnowplowIgluClient.framework */,
 				7598AF4B21EFB77900C3E80D /* SnowplowIgluClient iOSTests.xctest */,
 			);
 			name = Products;
@@ -362,7 +362,7 @@
 			);
 			name = "SnowplowIgluClient iOS";
 			productName = "SnowplowIgluClient iOS";
-			productReference = 7598AF4321EFB77900C3E80D /* SnowplowIgluClient_iOS.framework */;
+			productReference = 7598AF4321EFB77900C3E80D /* SnowplowIgluClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7598AF4A21EFB77900C3E80D /* SnowplowIgluClient iOSTests */ = {
@@ -788,7 +788,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.snowplowanalytics.SnowplowIgluClient-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = SnowplowIgluClient;
+				PRODUCT_NAME = SnowplowIgluClient;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -835,7 +836,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.snowplowanalytics.SnowplowIgluClient-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = SnowplowIgluClient;
+				PRODUCT_NAME = SnowplowIgluClient;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
