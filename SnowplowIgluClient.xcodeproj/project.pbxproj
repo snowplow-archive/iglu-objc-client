@@ -10,12 +10,9 @@
 		045044C71BD4C0E400677154 /* SnowplowIgluResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */; };
 		048F243F1BCFCC380057A1DC /* TestResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F243E1BCFCC380057A1DC /* TestResolver.m */; };
 		048F24411BCFD19C0057A1DC /* TestSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F24401BCFD19C0057A1DC /* TestSchema.m */; };
-		04A4A8961BD4E7E8000B7395 /* IGLUResources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* IGLUResources */; };
-		04A4A8971BD4E7E8000B7395 /* IGLUResources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* IGLUResources */; };
 		04A4A8981BD4E7E8000B7395 /* IGLUResources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* IGLUResources */; };
 		04A9F7AC1BCE2A9900BD823C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A9F7AB1BCE2A9900BD823C /* CoreFoundation.framework */; };
 		04A9F7C21BCE2E2C00BD823C /* SnowplowIgluResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */; };
-		04D0AB9F1BD1401B000B0CD6 /* TestResources in Resources */ = {isa = PBXBuildFile; fileRef = 04F728081BCD4D3400236038 /* TestResources */; };
 		04F727FB1BCD4D2700236038 /* IGLUConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F11BCD4D2700236038 /* IGLUConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04F727FC1BCD4D2700236038 /* IGLUConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F727F21BCD4D2700236038 /* IGLUConstants.m */; };
 		04F727FD1BCD4D2700236038 /* IGLUClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F31BCD4D2700236038 /* IGLUClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,8 +39,6 @@
 		7598AF6121EFB7BC00C3E80D /* IGLUResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F51BCD4D2700236038 /* IGLUResolver.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7598AF6221EFB7BC00C3E80D /* IGLUSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F71BCD4D2700236038 /* IGLUSchema.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7598AF6321EFB7BC00C3E80D /* IGLUUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F727F91BCD4D2700236038 /* IGLUUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7598AF6421EFB7FF00C3E80D /* IGLUResources in Resources */ = {isa = PBXBuildFile; fileRef = 04A4A8951BD4E7E8000B7395 /* IGLUResources */; };
-		7598AF6521EFB80F00C3E80D /* TestResources in Resources */ = {isa = PBXBuildFile; fileRef = 04F728081BCD4D3400236038 /* TestResources */; };
 		7598AF6621EFB81C00C3E80D /* SnowplowIgluResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */; };
 		7598AF6721EFB82C00C3E80D /* VVJSONSchemaValidation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7598AF3A21EFB68200C3E80D /* VVJSONSchemaValidation.framework */; };
 		7598AF6921EFB86E00C3E80D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7598AF6821EFB86E00C3E80D /* UIKit.framework */; };
@@ -447,7 +442,6 @@
 			files = (
 				045044C71BD4C0E400677154 /* SnowplowIgluResources.bundle in Resources */,
 				04F7280D1BCD4D3400236038 /* TestResources in Resources */,
-				04A4A8971BD4E7E8000B7395 /* IGLUResources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,9 +449,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D0AB9F1BD1401B000B0CD6 /* TestResources in Resources */,
 				04A9F7C21BCE2E2C00BD823C /* SnowplowIgluResources.bundle in Resources */,
-				04A4A8961BD4E7E8000B7395 /* IGLUResources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,8 +458,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7598AF6621EFB81C00C3E80D /* SnowplowIgluResources.bundle in Resources */,
-				7598AF6521EFB80F00C3E80D /* TestResources in Resources */,
-				7598AF6421EFB7FF00C3E80D /* IGLUResources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,6 +622,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Debug;
 		};
@@ -681,6 +672,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Release;
 		};

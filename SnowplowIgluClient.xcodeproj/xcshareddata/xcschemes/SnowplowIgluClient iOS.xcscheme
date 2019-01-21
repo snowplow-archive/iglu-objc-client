@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7598AF4221EFB77900C3E80D"
-               BuildableName = "SnowplowIgluClient_iOS.framework"
+               BuildableName = "SnowplowIgluClient.framework"
                BlueprintName = "SnowplowIgluClient iOS"
                ReferencedContainer = "container:SnowplowIgluClient.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7598AF4221EFB77900C3E80D"
-            BuildableName = "SnowplowIgluClient_iOS.framework"
+            BuildableName = "SnowplowIgluClient.framework"
             BlueprintName = "SnowplowIgluClient iOS"
             ReferencedContainer = "container:SnowplowIgluClient.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7598AF4221EFB77900C3E80D"
-            BuildableName = "SnowplowIgluClient_iOS.framework"
+            BuildableName = "SnowplowIgluClient.framework"
             BlueprintName = "SnowplowIgluClient iOS"
             ReferencedContainer = "container:SnowplowIgluClient.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7598AF4221EFB77900C3E80D"
-            BuildableName = "SnowplowIgluClient_iOS.framework"
+            BuildableName = "SnowplowIgluClient.framework"
             BlueprintName = "SnowplowIgluClient iOS"
             ReferencedContainer = "container:SnowplowIgluClient.xcodeproj">
          </BuildableReference>
