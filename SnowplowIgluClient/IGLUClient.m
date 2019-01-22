@@ -23,7 +23,7 @@
 #import "IGLUUtilities.h"
 #import "IGLUResolver.h"
 #import "IGLUSchema.h"
-#import <VVJSONSchemaValidation/VVJSONSchemaValidation.h>
+#import "SchemaValidator.h"
 
 @implementation IGLUClient {
     NSNumber * _cacheSize;
