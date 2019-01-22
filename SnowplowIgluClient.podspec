@@ -13,18 +13,9 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/SnowPlowData'
   s.documentation_url	= 'https://github.com/snowplow/snowplow/wiki/iglu-objc-client'
 
-  s.ios.deployment_target = '7.0'
-  s.osx.deployment_target = '10.9'
+  s.ios.deployment_target = '10.0'
+  s.osx.deployment_target = '10.11'
   s.requires_arc = true
   s.frameworks = 'Foundation'
-  s.dependency 'VVJSONSchemaValidation', '~> 1.5.0'
-
-  s.source_files = 'SnowplowIgluClient/*.{m,h}'
-  s.public_header_files = [
-    'SnowplowIgluClient/IGLUConstants.h', 
-    'SnowplowIgluClient/IGLUClient.h',
-    'SnowplowIgluClient/IGLUUtilities.h'
-  ]
-
-  s.resource_bundles = { 'SnowplowIgluResources' => ['SnowplowIgluResources/IGLUResources/**'] }
+  s.vendored_frameworks = 'SnowplowIgluClient.framework'
 end
