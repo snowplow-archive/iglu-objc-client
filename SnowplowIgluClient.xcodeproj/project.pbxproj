@@ -90,7 +90,6 @@
 		04A4A8951BD4E7E8000B7395 /* IGLUResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = IGLUResources; sourceTree = "<group>"; };
 		04A9F7AB1BCE2A9900BD823C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		04A9F7BD1BCE2DD000BD823C /* SnowplowIgluResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowplowIgluResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		04D1F2BB1BCE265A00B947A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F727B51BCD4B7600236038 /* libSnowplowIgluClient.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libSnowplowIgluClient.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F727DA1BCD4C2200236038 /* SnowplowIgluClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowplowIgluClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F727F11BCD4D2700236038 /* IGLUConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLUConstants.h; sourceTree = "<group>"; };
@@ -116,6 +115,7 @@
 		7598AF5221EFB77900C3E80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7598AF6821EFB86E00C3E80D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7598AF6A21EFB8B100C3E80D /* VVJSONSchemaValidation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVJSONSchemaValidation.framework; path = Carthage/Build/Mac/VVJSONSchemaValidation.framework; sourceTree = "<group>"; };
+		7599F96D21F6DF17002B4F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,8 +166,8 @@
 		04D1F2BA1BCE265A00B947A2 /* SnowplowIgluResources */ = {
 			isa = PBXGroup;
 			children = (
+				7599F96D21F6DF17002B4F35 /* Info.plist */,
 				04A4A8951BD4E7E8000B7395 /* IGLUResources */,
-				04D1F2BB1BCE265A00B947A2 /* Info.plist */,
 			);
 			path = SnowplowIgluResources;
 			sourceTree = "<group>";
