@@ -1,0 +1,3 @@
+[submodule "Frameworks/External/JSONSchemaValidation"]
+	path = Frameworks/External/JSONSchemaValidation
+	url = https://github.com/vlas-voloshin/JSONSchemaValidation.git
