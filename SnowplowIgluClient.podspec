@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.9'
   s.requires_arc = true
   s.frameworks = 'Foundation'
-  s.dependency 'KiteJSONValidator', '~> 0.2.3'
+  s.dependency 'VVJSONSchemaValidation', '~> 1.5.0'
 
   s.source_files = 'SnowplowIgluClient/*.{m,h}'
   s.public_header_files = [
