@@ -15,8 +15,10 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.frameworks = 'Foundation'
-  s.ios.deployment_target = '10.0'
-  s.osx.deployment_target = '10.11'
+  #s.ios.deployment_target = '10.0'
+  #s.osx.deployment_target = '10.11'
+  s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.9'
   s.requires_arc = true
   s.frameworks = 'Foundation'
   s.dependency 'VVJSONSchemaValidation', '~> 1.5.0'
