@@ -33,5 +33,5 @@ Pod::Spec.new do |s|
     'SnowplowIgluClient/IGLUUtilities.h'
   ]
 
-  s.resource_bundles = { 'SnowplowIgluResources' => ['SnowplowIgluResources/IGLUResources/**/*'] }
+  s.resource_bundles = { 'SnowplowIgluResources' => ['SnowplowIgluResources/IGLUResources/'] }
 end
