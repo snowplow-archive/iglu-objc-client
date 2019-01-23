@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.dependency 'VVJSONSchemaValidation', '~> 1.5.0'
   s.frameworks = 'VVJSONSchemaValidation'
 
-  s.source_files = 'SnowplowIgluClient/*.m'
+  s.source_files = 'SnowplowIgluClient/*.{m,h}', 'SnowplowIgluClient/CocoapodsHeaders/SchemaValidator.h'
   s.private_header_files = [
     'SnowplowIgluClient/CocoapodsHeaders/SchemaValidator.h',
     'SnowplowIgluClient/IGLUResolver.h',
