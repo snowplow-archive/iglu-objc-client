@@ -27,9 +27,8 @@ Pod::Spec.new do |s|
   s.source_files = 'SnowplowIgluClient/*.m'
   s.private_header_files = [
     'SnowplowIgluClient/CocoapodsHeaders/SchemaValidator.h',
-    'SnowplowIgluClient/IGLUConstants.h',
-    'SnowplowIgluClient/IGLUClient.h',
-    'SnowplowIgluClient/IGLUUtilities.h'
+    'SnowplowIgluClient/IGLUResolver.h',
+    'SnowplowIgluClient/IGLUSchema.h',
   ]
   s.public_header_files = [
     'SnowplowIgluClient/IGLUConstants.h',
